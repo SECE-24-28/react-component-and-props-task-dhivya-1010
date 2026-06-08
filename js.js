@@ -82,7 +82,13 @@
 // };
 
 //FILTER
-const a = [1,2,3,4,5]
-const b = a.filter((n)=>n%2==0)
-console.log(b)
+// const a = [1,2,3,4,5]
+// const b = a.filter((n)=>n%2==0)
+// console.log(b)
+
+//FOR EACH
+const a = [1,2,3,4]
+a.forEach((n)=>{
+    console.log(n)
+})
 
