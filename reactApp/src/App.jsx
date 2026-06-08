@@ -7,9 +7,9 @@ function App() {
   
   return (
     <div>
-      <Student />
+      <Student title="Dhivya" />
       <StudentClass />
-      <Students />
+      <Students title="Props class"/>
       <Students />
       <Jsxx />
     </div>
