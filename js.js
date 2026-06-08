@@ -37,26 +37,34 @@
 
 //SPREAD OPERATOR
 //1.ARRAYS
-const a = [1,2,3]
-const b = [...a]
-console.log(b)
+// const a = [1,2,3]
+// const b = [...a]
+// console.log(b)
 
-const a = [1,2,3]
-const b = [4,5,6]
-const c = [...a,...b]
-console.log(c)
+// const a = [1,2,3]
+// const b = [4,5,6]
+// const c = [...a,...b]
+// console.log(c)
 
 
-//SPREAD OPERATOR
-//2. OBJECT
-const stud = {
-    "name":"Dhivya",
-    "age":21
+// //SPREAD OPERATOR
+// //2. OBJECT
+// const stud = {
+//     "name":"Dhivya",
+//     "age":21
+// }
+
+// const s1 = {
+//     ...stud,
+//     "city":"cbe"
+// }
+
+// console.log(s1)
+
+//REST OPERATOR
+//to collect the values without using loops or sth
+const add=(...num)=>{
+    console.log(num)
 }
+add(1,2,3,4,5,7)
 
-const s1 = {
-    ...stud,
-    "city":"cbe"
-}
-
-console.log(s1)
