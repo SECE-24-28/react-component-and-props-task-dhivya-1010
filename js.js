@@ -11,6 +11,14 @@
 // add(a,b);
 
 //TEMPLATE LITERALS
-let a = "Dhivya";
+//let a = "Dhivya";
 //console.log("welcome " + a);
-console.log(`welcome ${a}`);
+//console.log(`welcome ${a}`);
+
+
+//ARRAY DESTRUCTURING
+const arr = ["a","abs","min"]
+console.log(arr[0]);
+const [a,b,c] = arr;
+console.log(a);
+console.log(b);
