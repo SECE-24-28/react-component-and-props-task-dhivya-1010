@@ -87,8 +87,13 @@
 // console.log(b)
 
 //FOR EACH
+// const a = [1,2,3,4]
+// a.forEach((n)=>{
+//     console.log(n)
+// })
+
+//FIND
 const a = [1,2,3,4]
-a.forEach((n)=>{
-    console.log(n)
-})
+const b = a.find((n)=> n%2==0)
+console.log(b)
 
